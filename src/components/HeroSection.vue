@@ -59,11 +59,16 @@
 import { ref } from 'vue'
 
 // Images (Open-source, tech, STEM, environment, robotics)
-import image1 from '../assets/heroImages/image1.jpeg'
-import image2 from '../assets/heroImages/image2.png'
+import image01 from '../assets/ost/image01.jpg'
+import image02 from '../assets/ost/image02.jpg'
+import image03 from '../assets/ost/image03.jpg'
+import image04 from '../assets/ost/image04.jpg'
+import image05 from '../assets/ost/image05.jpg'
+import image06 from '../assets/ost/image06.jpg'
 import image07 from '../assets/ost/image07.jpg'
-//import image08 from '../assets/ost/image08.jpg'
+import image08 from '../assets/ost/image08.jpg'
 import image09 from '../assets/ost/image09.jpg'
+import image10 from '../assets/ost/image10.jpg'
 
 // Swiper
 import { Swiper, SwiperSlide } from 'swiper/vue'
@@ -72,5 +77,5 @@ import { Autoplay, Pagination } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
 
-const heroImages = ref([image1, image2, image09])
+const heroImages = ref([image07, image08, image05, image09, image03, image01, image04, image02, image06, image10])
 </script>

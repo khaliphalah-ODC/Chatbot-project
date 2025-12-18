@@ -31,15 +31,15 @@
 import { ref } from "vue";
 
 // Staff images
-import image1 from '../assets/heroImages/image1.jpeg'
-import image2 from '../assets/heroImages/image2.png'
-import image3 from '../assets/heroImages/image3.png'
+import image11  from '../assets/ost/image11.jpg'
+import image12  from '../assets/ost/image12.jpg'
+import image13  from '../assets/ost/image13.jpg'
 
 const staffMembers = ref([
-  { id: 1, name: "Khaliphalah Bility", position: "Founder & CEO", image: image1 },
-  { id: 2, name: "Davina Johnson", position: "Head of STEM Programs", image: image2 },
-  { id: 3, name: "Samuel Doe", position: "Lead Developer", image: image3 },
-  { id: 3, name: "Samuel Doe", position: "Lead Developer", image: image3 },
+  { id: 1, name: "Dave Nyemal", position: "Founder and CEO", image: image13 },
+  { id: 2, name: "Delbra B. Ukatu", position: "Head of finance", image: image11 },
+  { id: 3, name: "Honey Bunch", position: "Project Team Lead", image: image12},
+ 
 ]);
 </script>
 <style scoped>

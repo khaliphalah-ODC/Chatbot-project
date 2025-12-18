@@ -9,7 +9,7 @@
       <!-- Desktop Menu -->
       <ul class="hidden md:flex gap-6 text-gray-700 font-medium">
         <li class="hover:text-blue-600 cursor-pointer">Home</li>
-        <li class="hover:text-blue-600 cursor-pointer">FAQs</li>
+        <li class="hover:text-blue-600 cursor-pointer"><a href="#faq"></a>FAQs</li>
         <li class="hover:text-blue-600 cursor-pointer">Contact</li>
       </ul>
 

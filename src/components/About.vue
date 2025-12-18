@@ -3,7 +3,7 @@
     <!-- Image -->
     <div class="flex-1">
       <img
-        src="../assets/heroImages/image2.png"
+        src="../assets/ost/image08.jpg"
         alt="About OpenSource Team Liberia"
         class="rounded-3xl shadow-lg w-full object-cover h-80 lg:h-full"
       />
