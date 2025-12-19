@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-green-400 shadow-md fixed w-full z-50">
+  <nav class="bg-orange-500 shadow-md fixed w-full z-50">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
       <!-- Logo -->
       <h1 class="text-xl font-bold text-blue-600">
