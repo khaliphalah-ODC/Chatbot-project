@@ -1,16 +1,16 @@
 <template>
   <section
     class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center"
-    :style="{ backgroundImage: `url(${image07})`, backgroundSize: 'cover', backgroundPosition: 'center' }"
+    :style="{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center' }"
   >
     <!-- Hero Text -->
     <div>
-      <h2 class="text-4xl font-extrabold text-gray-900 leading-tight">
+      <h2 class="text-4xl font-extrabold text-black leading-tight">
         Open-Source Innovation <br />
         Empowering Communities
       </h2>
 
-      <p class="mt-4 text-gray-600 text-lg">
+      <p class="mt-4 text-black text-lg font-bold leading-relaxed">
         OpenSource Team–Liberia builds accessible technology using open-source
         tools, STEM education, and innovation in engineering, environment,
         climate, and robotics.
@@ -18,13 +18,13 @@
 
       <div class="mt-6 flex gap-4">
         <button
-          class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition"
+          class="border border-white-600 bg-black text-white px-6 py-3 rounded-lg shadow hover:bg-black-700 transition"
         >
           Join the Community
         </button>
 
         <button
-          class="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition"
+          class="border border-black bg-orange-600 text-white px-6 py-3 rounded-lg shadow hover:bg-black-700 transition"
         >
           Explore Projects
         </button>
@@ -69,6 +69,7 @@ import image07 from '../assets/ost/image07.jpg'
 import image08 from '../assets/ost/image08.jpg'
 import image09 from '../assets/ost/image09.jpg'
 import image10 from '../assets/ost/image10.jpg'
+import background from '../assets/ost/background.png'
 
 // Swiper
 import { Swiper, SwiperSlide } from 'swiper/vue'
