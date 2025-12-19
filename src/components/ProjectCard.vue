@@ -55,9 +55,9 @@ const projects = ref([
 
   {
     id: 4,
-    title: "Community App Development",
+    title: "Beach Clean-Up Initiative",
     description:
-      "Building mobile apps that solve real-world problems for local communities.",
+      "Organizing beach clean-up activities to protect local ecosystems and raise environmental awareness in the South Beach community.",
     image: image04,
   },
     {

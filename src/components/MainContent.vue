@@ -36,7 +36,7 @@
         <!-- Info Box -->
         <div class="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-4">
           <p class="text-sm text-blue-800">
-            <strong>💡 Tip:</strong> Can't find what you're looking for? 
+            <strong> <i class="fa-solid fa-lightbulb"></i> Tip:</strong> Can't find what you're looking for? 
             Click the Messenger icon in the bottom right corner to chat with our team!
           </p>
         </div>

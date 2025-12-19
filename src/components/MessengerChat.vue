@@ -40,7 +40,7 @@
         <!-- Typing indicator -->
         <div v-if="typing" class="text-left">
           <span class="inline-block bg-gray-200 px-3 py-1 rounded-lg italic">
-            Bot is typing...
+            ...
           </span>
         </div>
       </div>

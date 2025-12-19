@@ -36,7 +36,7 @@ import image12  from '../assets/ost/image12.jpg'
 import image13  from '../assets/ost/image13.jpg'
 
 const staffMembers = ref([
-  { id: 1, name: "Dave Nyemal", position: "Founder and CEO", image: image13 },
+  { id: 1, name: "Sam", position: "Founder and CEO", image: image13 },
   { id: 2, name: "Delbra B. Ukatu", position: "Head of finance", image: image11 },
   { id: 3, name: "Honey Bunch", position: "Project Team Lead", image: image12},
  
