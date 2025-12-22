@@ -5,12 +5,12 @@
   >
     <!-- Hero Text -->
     <div>
-      <h2 class="text-4xl font-extrabold text-black leading-tight">
+      <h2 class="text-4xl font-extrabold text-red-500 leading-tight">
         Open-Source Innovation <br />
         Empowering Communities
       </h2>
 
-      <p class="mt-4 text-black text-lg font-bold leading-relaxed">
+      <p class="mt-4 text-white text-lg font-bold leading-relaxed">
         OpenSource Team–Liberia builds accessible technology using open-source
         tools, STEM education, and innovation in engineering, environment,
         climate, and robotics.

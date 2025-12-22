@@ -127,3 +127,14 @@ function getReply(text) {
   return 'Thanks for your message! We will respond shortly.'
 }
 </script>
+
+
+
+<template>
+  <SocialChat
+    icon
+    position="right"
+    :attendants="attendants"
+  />
+</template>
+
