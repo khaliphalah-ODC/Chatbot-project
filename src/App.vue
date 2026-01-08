@@ -17,6 +17,7 @@
 
    <!-- Staff Section -->
    <StaffSection />
+   <Contact />
   
 
     <!-- Messenger Chat Component -->
@@ -41,6 +42,7 @@ import HeroSection from './components/HeroSection.vue';
 import ProjectCard from './components/ProjectCard.vue';
 import About from './components/About.vue';
 import StaffSection from './components/StaffSection.vue';
+import Contact from './components/Contact.vue';
 
 
 export default {
@@ -55,10 +57,8 @@ export default {
     HeroSection,
     ProjectCard,
     StaffSection,
-   
-
-
-
+    Contact,
+  
   },
 }
  

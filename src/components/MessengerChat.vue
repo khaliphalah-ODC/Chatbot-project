@@ -15,7 +15,9 @@ const attendants = [
     app: 'messenger',
     label: 'Chat with OpenSource Team–Liberia',
     name: 'OpenSource Team–Liberia',
-    url: 'https://m.me/910048368859450',
+    //url: 'https://m.me/910048368859450',
+    url: 'https://www.facebook.com/messages/t/910048368859450',
+
     avatar: {
         src: image002,
         alt: 'OpenSource Team–Liberia Avatar'

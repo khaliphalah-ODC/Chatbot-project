@@ -11,6 +11,7 @@
         <li class="hover:text-blue-600 cursor-pointer">Home</li>
         <li class="hover:text-blue-600 cursor-pointer"><a href="#faq"></a>FAQs</li>
         <li class="hover:text-blue-600 cursor-pointer">Contact</li>
+        <li class="hover:text-blue-600 cursor-pointer">About</li>
       </ul>
 
       <!-- Mobile Menu Toggle -->
@@ -30,6 +31,7 @@
       <li class="hover:text-blue-600 cursor-pointer" @click="closeMenu">Home</li>
       <li class="hover:text-blue-600 cursor-pointer" @click="closeMenu">FAQs</li>
       <li class="hover:text-blue-600 cursor-pointer" @click="closeMenu">Contact</li>
+      <li class="hover:text-blue-600 cursor-pointer" @click="closeMenu">About</li>
     </ul>
   </nav>
 </template>

@@ -128,13 +128,3 @@ function getReply(text) {
 }
 </script>
 
-
-
-<template>
-  <SocialChat
-    icon
-    position="right"
-    :attendants="attendants"
-  />
-</template>
-
