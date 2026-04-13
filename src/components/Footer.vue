@@ -19,8 +19,13 @@
 
         <div>
           <h3 class="text-white font-bold mb-2">Contact</h3>
-          <p class="text-sm">Email: support@example.com</p>
-          <p class="text-sm"><a href="https://www.facebook.com/share/1Ao8W7Z4HH/">Facebook</a></p>
+          <p class="text-sm">
+            Email:
+            <a :href="`mailto:${SUPPORT_CONFIG.supportEmail}`">{{ SUPPORT_CONFIG.supportEmail }}</a>
+          </p>
+          <p class="text-sm">
+            <a :href="SUPPORT_CONFIG.messengerUrl" target="_blank" rel="noopener noreferrer">Messenger</a>
+          </p>
           <p class="text-sm">Chat: Messenger</p>
         </div>
       </div>
@@ -31,6 +36,6 @@
     </footer>
 </template>
 
-<script>
-
+<script setup>
+import { SUPPORT_CONFIG } from '../config/support'
 </script>

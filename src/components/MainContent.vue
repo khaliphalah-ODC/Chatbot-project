@@ -1,5 +1,5 @@
 <template>
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" id="#fag">
+  <main id="faq" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 scroll-mt-24">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <!-- Left Side: FAQs -->
       <div class="bg-white rounded-lg shadow-lg p-6 lg:p-8">
@@ -76,7 +76,7 @@
                 Quick Response
               </h3>
               <p class="text-gray-600 mt-1">
-                Get instant answers to your questions from our automated assistant.
+                Start with Messenger chat and escalate by email when needed.
               </p>
             </div>
           </div>

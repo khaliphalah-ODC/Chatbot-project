@@ -1,5 +1,6 @@
 <template>
   <section
+    id="home"
     class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center"
     :style="{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center' }"
   >
@@ -18,13 +19,13 @@
 
       <div class="mt-6 flex gap-4">
         <button
-          class="border border-white-600 bg-black text-white px-6 py-3 rounded-lg shadow hover:bg-black-700 transition"
+          class="border border-white/90 bg-black text-white px-6 py-3 rounded-lg shadow hover:bg-gray-900 transition"
         >
           Join the Community
         </button>
 
         <button
-          class="border border-black bg-orange-600 text-white px-6 py-3 rounded-lg shadow hover:bg-black-700 transition"
+          class="border border-black bg-orange-600 text-white px-6 py-3 rounded-lg shadow hover:bg-orange-700 transition"
         >
           Explore Projects
         </button>

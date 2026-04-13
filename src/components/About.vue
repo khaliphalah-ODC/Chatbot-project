@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-7xl mx-auto px-4 py-16 flex bg-black flex-col lg:flex-row items-center gap-12">
+  <section id="about" class="max-w-7xl mx-auto px-4 py-16 flex bg-black flex-col lg:flex-row items-center gap-12 scroll-mt-24">
     <!-- Image -->
     <div class="flex-1">
       <img
@@ -11,7 +11,7 @@
 
     <!-- Text -->
     <div class="flex-1">
-      <h2 class="text-4xl font-extrabold text-brand.brown mb-6 font-bold">
+      <h2 class="text-4xl font-extrabold text-amber-200 mb-6 font-bold">
         About OpenSource Team Liberia
       </h2>
       <p class="text-lg text-white mb-6 leading-relaxed font-bold">
@@ -23,7 +23,7 @@
         Through workshops, projects, and community programs, we aim to provide accessible
         learning opportunities for everyone and inspire the next generation of innovators.
       </p>
-      <button class="bg-brand.green text-brand.white px-6 py-3 rounded-xl font-semibold shadow hover:bg-brand.brown transition">
+      <button class="bg-emerald-600 text-white px-6 py-3 rounded-xl font-semibold shadow hover:bg-emerald-700 transition">
         Learn More
       </button>
     </div>

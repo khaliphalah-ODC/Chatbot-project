@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-6xl mx-auto px-4 py-16">
+  <section id="contact" class="max-w-6xl mx-auto px-4 py-16 scroll-mt-24">
     <!-- Header -->
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold text-gray-900">
@@ -14,8 +14,9 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
       <!-- Messenger -->
       <a
-        href="https://m.me/910048368859450"
+        :href="SUPPORT_CONFIG.messengerUrl"
         target="_blank"
+        rel="noopener noreferrer"
         class="group bg-white rounded-2xl p-6 shadow hover:shadow-lg transition text-center"
       >
         <div class="text-4xl mb-4"><i class="fas fa-message"></i>
@@ -30,7 +31,7 @@
 
       <!-- Email -->
       <a
-        href="mailto:opensource@odc.org"
+        :href="`mailto:${SUPPORT_CONFIG.supportEmail}`"
         class="group bg-white rounded-2xl p-6 shadow hover:shadow-lg transition text-center"
       >
         <div class="text-4xl mb-4"><i class="fas fa-envelope"></i>
@@ -39,7 +40,7 @@
           Email
         </h3>
         <p class="text-gray-500 mt-2">
-          opensource@gmail.com
+          {{ SUPPORT_CONFIG.supportEmail }}
         </p>
       </a>
 
@@ -47,6 +48,7 @@
       <a
         href="https://github.com/opensource-odc"
         target="_blank"
+        rel="noopener noreferrer"
         class="group bg-white rounded-2xl p-6 shadow hover:shadow-lg transition text-center"
       >
         <div class="text-4xl mb-4"><i class="fab fa-github"></i>
@@ -104,19 +106,22 @@
 
 <script setup>
 import { ref } from 'vue'
+import { SUPPORT_CONFIG, getSupportMailto } from '../config/support'
 
 const name = ref('')
 const email = ref('')
 const message = ref('')
 
 const submitForm = () => {
-  console.log({
+  const mailtoUrl = getSupportMailto({
     name: name.value,
     email: email.value,
-    message: message.value
+    message: message.value,
   })
 
-  alert('Message sent successfully!')
+  window.location.href = mailtoUrl
+
+  alert('Your email app is opening so you can send the message to support.')
   name.value = ''
   email.value = ''
   message.value = ''

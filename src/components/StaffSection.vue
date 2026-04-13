@@ -1,6 +1,6 @@
 <template>
   <section class="max-w-7xl mx-auto px-4 py-16">
-    <h2 class="text-3xl font-bold text-brand.brown mb-10 text-center">
+    <h2 class="text-3xl font-bold text-gray-900 mb-10 text-center">
       Meet Our Team
     </h2>
 
@@ -8,7 +8,7 @@
       <div
         v-for="staff in staffMembers"
         :key="staff.id"
-        class="rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 hover:shadow-2xl transition duration-300 bg-brand.white"
+        class="rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 hover:shadow-2xl transition duration-300 bg-white"
       >
         <!-- Staff Image -->
         <img
@@ -19,7 +19,7 @@
 
         <!-- Name & Position Below Image -->
         <div class="p-6 text-center">
-          <h3 class="text-xl font-bold text-brand.brown mb-1">{{ staff.name }}</h3>
+          <h3 class="text-xl font-bold text-gray-900 mb-1">{{ staff.name }}</h3>
           <p class="text-gray-700">{{ staff.position }}</p>
         </div>
       </div>

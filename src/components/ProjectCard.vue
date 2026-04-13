@@ -1,6 +1,6 @@
 <template>
   <section class="max-w-7xl mx-auto p-8">
-    <h2 class="text-3xl font-bold text-brand.brown mb-8 text-center">
+    <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
       Our Projects
     </h2>
 
@@ -8,12 +8,12 @@
       <div
         v-for="project in projects"
         :key="project.id"
-        class="bg-brand.white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 hover:shadow-2xl transition duration-300"
+        class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 hover:shadow-2xl transition duration-300"
       >
         <img :src="project.image" :alt="project.title" class="w-full h-48 object-cover" />
         <div class="p-6">
-          <h3 class="text-xl font-bold text-brand.brown mb-2">{{ project.title }}</h3>
-          <p class="text-brand.brown">{{ project.description }}</p>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">{{ project.title }}</h3>
+          <p class="text-gray-700">{{ project.description }}</p>
         </div>
       </div>
     </div>
